@@ -92,12 +92,12 @@
 -keep class org.crosswalk.engine.** { *; }
 -keep class org.chromium.** { *; }
 
--dontwarn javax.annotation.** { *; }
--dontwarn org.codehaus.** { *; }
--dontwarn java.nio.** { *; }
--dontwarn android.view.** { *; }
--dontwarn android.media.** { *; }
--dontwarn org.chromium.** { *; }
+-dontwarn javax.annotation.** 
+-dontwarn org.codehaus.** 
+-dontwarn java.nio.** 
+-dontwarn android.view.** 
+-dontwarn android.media.** 
+-dontwarn org.chromium.** 
 
 
 
