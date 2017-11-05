@@ -91,6 +91,7 @@
 -keep class org.xwalk.core.** { *; }
 -keep class org.crosswalk.engine.** { *; }
 -keep class org.chromium.** { *; }
+-keepattributes **
 
 -dontwarn javax.annotation.** 
 -dontwarn org.codehaus.** 
