@@ -79,6 +79,7 @@
 -dontnote sun.misc.Unsafe
 
 -keep class com.worklight.androidgap.push.** { *; }
+-keep class com.worklight.androidgap.push.** { *; }
 -keep class com.worklight.wlclient.push.** { *; }
 
 # Enable proguard with Google libs
@@ -87,9 +88,17 @@
 -dontwarn com.google.ads.**
 
 # Enable proguard with Chromium
+-keep class org.xwalk.core.** { *; }
+-keep class org.crosswalk.engine.** { *; }
+-keep class org.chromium.** { *; }
 -dontwarn javax.annotation.**
 -dontwarn org.codehaus.** { *; }
 -dontwarn java.nio.** { *; }
+-dontwarn android.view.**
+-dontwarn android.media.**
+-dontwarn org.chromium.**
+
+
 
 # apache.http
 -optimizations !class/merging/vertical*,!class/merging/horizontal*,!code/simplification/arithmetic,!field/*,!code/allocation/variable
