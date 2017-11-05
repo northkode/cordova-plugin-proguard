@@ -4,8 +4,8 @@ android {
   }
   buildTypes {
     debug {
-      minifyEnabled true
-      shrinkResources true
+      minifyEnabled false
+      shrinkResources false
       pseudoLocalesEnabled false
       zipAlignEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
