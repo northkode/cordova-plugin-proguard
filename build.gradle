@@ -14,7 +14,7 @@ android {
       minifyEnabled false
       shrinkResources true
       pseudoLocalesEnabled false
-      zipAlignEnabled true
+      zipAlignEnabled false
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
     }
   }
