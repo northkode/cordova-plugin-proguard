@@ -12,7 +12,9 @@
 # Add any project specific keep options here:
 #-dontshrink
 #-dontoptimize
-#-dontobfuscate
+-dontobfuscate
+-optimizationpasses 3
+-dontpreverify
 
 # If your project uses WebView with JS, uncomment the following
 # and specify the fully qualified class name to the JavaScript interface
@@ -31,7 +33,6 @@
 # Specifies to write out some more information during processing. 
 # If the program terminates with an exception, this option will print out the entire stack trace, instead of just the exception message.
 -verbose
--optimizationpasses 3
 
 # Annotations are represented by attributes that have no direct effect on the execution of the code. 
 -keepattributes *Annotation*
