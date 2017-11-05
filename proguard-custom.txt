@@ -81,6 +81,11 @@
 -dontwarn com.google.common.**
 -dontwarn com.google.ads.**
 
+# Enable proguard with Chromium
+-dontwarn javax.annotation.**
+-dontwarn org.codehaus.** { *; }
+-dontwarn java.nio.** { *; }
+
 # apache.http
 -optimizations !class/merging/vertical*,!class/merging/horizontal*,!code/simplification/arithmetic,!field/*,!code/allocation/variable
 
