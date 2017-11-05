@@ -11,8 +11,8 @@ android {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
     }
     release {
-      minifyEnabled false
-      shrinkResources true
+      minifyEnabled true
+      shrinkResources false
       pseudoLocalesEnabled false
       zipAlignEnabled false
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
